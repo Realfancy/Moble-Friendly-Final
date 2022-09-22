@@ -1,0 +1,11 @@
+.carouselE{
+    height: 32rem;
+}
+.carousel-inner{
+    height: 1200px;
+}
+.carousel-item{
+    position: absolute;
+    top: 0;
+    left: 0;
+}

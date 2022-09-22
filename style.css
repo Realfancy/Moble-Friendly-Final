@@ -1,0 +1,51 @@
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+    align-items: center;
+}
+
+body {
+    background: #333;
+    padding-top: 0;
+    /* display: inline; */
+  }
+  
+
+  #typewriter h1 {
+    font-family: monospace;
+    overflow: hidden; 
+    border-right: .15em solid black; 
+    white-space: nowrap;
+    margin: 30px auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+ 
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+  }
+
+  .intro{
+    display: none;
+  }
+  @media-breakpoint-up(md){
+    .intro{
+        display: block;
+    }
+  }
+
+  @media-breakpoint-up(md){
+    .jumbotron
+  }
